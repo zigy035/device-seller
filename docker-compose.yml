@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  device-seller-db:
+    image: postgres:12.7
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: device_db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 1234
