@@ -20,7 +20,7 @@ public class PurchaseService {
         return purchaseRepository.save(purchase);
     }
 
-    public List<PurchaseItem> findPurchaseItemsOfUser(Long userId) {
-        return purchaseRepository.findAllPurchasesOfUser(userId);
+    public List<PurchaseItem> findPurchasesByUser(Long userId) {
+        return purchaseRepository.findPurchasesByUser(userId);
     }
 }
