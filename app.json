@@ -1,5 +1,5 @@
 {
-  "name": "sha-device-seller",
+  "name": "sha-device-seller-tst",
   "buildpack": [
     {
       "url": "heroku/java"
